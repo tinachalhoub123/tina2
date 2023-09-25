@@ -35,7 +35,7 @@ st.plotly_chart(fig)
 
 
 
-df = pd.read_csv("C:\\Users\\user\\Desktop\\lebanon_mortality_2.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/tinachalhoub123/tina2/main/lebanon_mortality_2.csv")
 
 # Create the Streamlit app
 st.title('Lebanon Mortality Analysis (1960 - 2021)')
