@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your data (replace 'your_data.csv' with your file path)
-df = pd.read_csv('C:\\Users\\user\\Desktop\\Salary_Data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/tinachalhoub123/tina2/main/Salary_Data.csv')
 
 # Create the Streamlit app
 st.title('Salary vs. Age Analysis')
