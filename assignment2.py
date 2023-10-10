@@ -26,7 +26,7 @@ fig.update_traces(textposition='inside', textangle=0, textfont_size=10)
 st.plotly_chart(fig)
 
 
-data = pd.read_csv("C:\\Users\\user\\Desktop\\lebanon_mortality_2.csv")
+data = pd.read_csv(https://github.com/tinachalhoub123/tina2/blob/main/lebanon_mortality_2.csv)
 
 # Create the Streamlit app
 st.title('Lebanon Mortality Analysis (1960 - 2021)')
