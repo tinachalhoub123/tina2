@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your data (replace 'your_data.csv' with your file path)
-df = pd.read_csv('C:\\Users\\user\\Desktop\\WC2023.csv')
+df = pd.read_csv(https://github.com/tinachalhoub123/tina2/blob/main/WC2023.csv)
 
 # Create the Streamlit app
 st.title('FIBA World Cup 2023 Teams Statistics')
