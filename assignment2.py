@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load your data (replace 'your_data.csv' with your file path)
-df = pd.read_csv("https://raw.githubusercontent.com/tinachalhoub123/tina2/main/WC2023.csv")
+df = pd.read_csv("https://github.com/tinachalhoub123/tina2/blob/main/WC2023.csv")
 
 # Create the Streamlit app
 st.title('FIBA World Cup 2023 Teams Statistics')
@@ -26,7 +26,7 @@ fig.update_traces(textposition='inside', textangle=0, textfont_size=10)
 st.plotly_chart(fig)
 
 
-data = pd.read_csv("https://raw.githubusercontent.com/tinachalhoub123/tina2/main/lebanon_mortality_2.csv")
+data = pd.read_csv("https://github.com/tinachalhoub123/tina2/blob/main/lebanon_mortality_2.csv")
 
 # Create the Streamlit app
 st.title('Lebanon Mortality Analysis (1960 - 2021)')
